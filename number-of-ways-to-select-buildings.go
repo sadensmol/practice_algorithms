@@ -2,8 +2,6 @@
 
 package main
 
-import "fmt"
-
 // the only possible combinations we need to find "101" and "010"
 // every combinatiщn we need to research based on the current number
 // if current number is 0 then we need to find how many 1 before and after this - this will be "101" case
@@ -49,7 +47,7 @@ func numberOfWays(s string) int64 {
 	return int64(result)
 }
 
-func main() {
+// func main() {
 
-	fmt.Printf("%d should be 6", numberOfWays("0011011"))
-}
+// 	fmt.Printf("%d should be 6", numberOfWays("0011011"))
+// }
