@@ -2,12 +2,7 @@ package main
 
 import "fmt"
 
-type Item struct {
-	val  int
-	next *Item
-}
-
-func main() {
+func mainListKthFromEnd() {
 	// 50 98 51 71 19 4
 	head := &Item{50, &Item{98, &Item{51, &Item{95, &Item{71, &Item{19, &Item{4, nil}}}}}}}
 

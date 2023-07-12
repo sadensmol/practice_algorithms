@@ -17,7 +17,7 @@ func (it *Item) String() (result string) {
 	return result
 }
 
-func main() {
+func mainListSum() {
 
 	//2->4->3 = 242
 	first := &Item{2, &Item{4, &Item{3, nil}}}
